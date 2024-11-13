@@ -4,7 +4,7 @@ import './Sidebar.css'
 import { AiOutlineHome, AiOutlineUser, AiOutlineFolderOpen, AiOutlineMail, AiOutlineClose,AiFillLinkedin, AiFillGithub, AiFillInstagram, AiOutlineMenu  } from 'react-icons/ai';
 import { FiBriefcase } from 'react-icons/fi';
 
- const Sidebar = ({isActive}) => {
+ const Sidebar = () => {
     
   return (
     <>
