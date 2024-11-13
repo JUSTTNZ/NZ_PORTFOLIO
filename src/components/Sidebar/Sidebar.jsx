@@ -3,9 +3,9 @@ import { NavLink } from 'react-router-dom';
 import './Sidebar.css'
 import { AiOutlineHome, AiOutlineUser, AiOutlineFolderOpen, AiOutlineMail, AiOutlineClose,AiFillLinkedin, AiFillGithub, AiFillInstagram, AiOutlineMenu  } from 'react-icons/ai';
 import { FiBriefcase } from 'react-icons/fi';
-// import { useState } from "react";
+
  const Sidebar = ({isActive}) => {
-    // const [showNav, setShowNav] = useState(false)
+    
   return (
     <>
         <div className="fixed flex flex-col justify-around top-0 left-0 h-screen w-[-50px] m-0 bg-gray-900 text-white shadow-lg">
@@ -13,28 +13,28 @@ import { FiBriefcase } from 'react-icons/fi';
             <div>
                 <NavLink 
                 to={'/'} 
-                className={({ isActive}) => `${isActive ? 'bg-blue-200' : 'text-blue-500'}`}>
-                <SideBarIcon icon={<AiOutlineHome size="30"/>} name= 'Home' />
+                className={({ isActive}) => `${isActive ? 'bg-blue-500' : 'bg-gray-800'}`}>
+                <SideBarIcon icon={<AiOutlineHome size="30"/>} name= 'Home' isActive={isActive}/>
                 </NavLink>
                 <NavLink 
                 to={'/about'}
-                className={({ isActive}) => `${isActive ? 'bg-blue-200' : 'bg-gray-800'}`}>
-                    <SideBarIcon icon={<AiOutlineUser size={30}/>} name= 'About' />
+                className={({ isActive}) => `${isActive ? 'bg-blue-500' : 'bg-gray-800'}`}>
+                    <SideBarIcon icon={<AiOutlineUser size={30}/>} name= 'About' isActive={isActive}/>
                 </NavLink>
                 <NavLink 
                 to={'/work'}
-                className={({ isActive}) => `${isActive ? 'bg-blue-200' : 'bg-gray-800'}`}>
-                    <SideBarIcon icon={<FiBriefcase size={30}/>} name= 'Work' />
+                className={({ isActive}) => `${isActive ? 'bg-blue-500' : 'bg-gray-800'}`}>
+                    <SideBarIcon icon={<FiBriefcase size={30}/>} name= 'Work' isActive={isActive}/>
                 </NavLink>
                 <NavLink 
                 to={'/portfolio'}
-                className={({ isActive}) => `${isActive ? 'bg-blue-200' : 'bg-gray-800'}`}>
-                    <SideBarIcon icon={<AiOutlineFolderOpen size={30}/>} name= 'Portfolio' />
+                className={({ isActive}) => `${isActive ? 'bg-blue-500' : 'bg-gray-800'}`}>
+                    <SideBarIcon icon={<AiOutlineFolderOpen size={30}/>} name= 'Portfolio' isActive={isActive}/>
                 </NavLink>
                 <NavLink 
                 to={'/contact'}
-                className={({ isActive}) => `${isActive ? 'bg-blue-200' : 'bg-gray-800'}`}>
-                    <SideBarIcon icon={<AiOutlineMail size={30}/>} name= 'Contact' />
+                className={({ isActive}) => `${isActive ? 'bg-blue-500' : 'bg-gray-800'}`}>
+                    <SideBarIcon icon={<AiOutlineMail size={30}/>} name= 'Contact' isActive={isActive}/>
                 </NavLink>
             </div>
             <div>
@@ -49,9 +49,9 @@ import { FiBriefcase } from 'react-icons/fi';
   
 }
 
-const SideBarIcon = ({ icon, name}) => (
+const SideBarIcon = ({ icon, name }) => (
     <div className=''>
-        <div className={`sidebar-icon`}>{icon}</div>
+        <div className='sidebar-icon'>{icon}</div>
         <span className='sidebar-names'>{name}</span>
     </div>
 )
