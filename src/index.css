@@ -1,6 +1,8 @@
+/* @import "~loaders.css/loaders.min.css"; */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 @layer components {
     .sidebar-icon  {
