@@ -60,10 +60,10 @@ const Contact = () => {
                                     <br/>
                                     <br/>
                                     <div className="flex ">
-                                    <a target = "_blank" rel = "noreferrer" href = "https://www.linkedin.com/in/erik-cupsa/">
+                                    <a target = "_blank" rel = "noreferrer" href = "https://www.linkedin.com/in/confidence-chukwudi-0236322a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
                                         <FontAwesomeIcon icon={faLinkedin}  class = "icon" color = "#4d4d4e" />
                                     </a>
-                                    <a target = "_blank" rel = "noreferrer" href = "mailto:ErikCupsa@gmail.com">
+                                    <a target = "_blank" rel = "noreferrer" href = "chukwudiconfidenceosinachi@gmail.com">
                                         <FontAwesomeIcon icon={faEnvelope} class = "icon" color = "#4d4d4e" />
                                     </a>
                                     </div>
