@@ -194,12 +194,12 @@
 
 .indicator {
     position: absolute;
-    right: 0;
+    right: 10px;
     height: 25px;
     margin-bottom: 30px;
     width: 6px;
     background-color: #3ba2f6;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
-    transition: ;
+    /* transition: ; */
 }
