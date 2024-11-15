@@ -6,6 +6,7 @@
     background: linear-gradient(to bottom, #023e8a 20%, #00b4d8 80%);
 }
 
+
 .container { 
     width: 98%; 
     will-change: contents; 
@@ -232,9 +233,14 @@
   @media screen and (max-width: 768px) {
     .sidebar {
       width: 80px; // Reduce sidebar width for smaller screens
+      display: none ;
+
+      
     }
     
     .page {
+      width: 100% !important;
       width: calc(100% - 80px); // Adjust main content width accordingly
     }
   }
+

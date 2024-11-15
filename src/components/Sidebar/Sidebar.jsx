@@ -9,7 +9,7 @@ import { useState } from 'react';
     const [activeLink, setActiveLink] = useState('/');
   return (
     <>
-        <div className="fixed flex flex-col justify-around top-0 left-0 h-screen w-[-50px] m-0 bg-gray-900 text-white shadow-lg">
+        <div className="fixed flex flex-col justify-around top-0 left-0 h-screen w-[-50px] m-0 bg-gray-900 text-white shadow-lg ">
             <p className=' px-2 text-blue-400 text-2xl font-mono font-bold'>Confidence.</p>
             <div>
             <NavLink 
