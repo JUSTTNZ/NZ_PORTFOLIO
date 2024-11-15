@@ -33,7 +33,7 @@ const Portfolio = () => {
                       {/* const imagePath = require(`${port.cover}`) */}
                       {/* console.log(`image source for ${port.title}:`, port.cover) */}
                         return (
-                            <div key={idx} className="image-box">
+                            <div key={idx} className="image-box w-full">
                                 <img src={port.cover} alt="portfolio" className = "portfolio-image"/>
                                 <div className="content">
                                     <p className="title">{port.title}</p>
