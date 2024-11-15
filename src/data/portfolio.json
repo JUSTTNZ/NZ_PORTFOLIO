@@ -1,53 +1,34 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/McGill.png", 
-            "title": "Exam Scheduler", 
-            "description": "ReactJS, PostgreSQL, Spring Boot", 
+            "cover": "../assets/nzdine.jpeg", 
+            "title": "NZDine", 
+            "description": "ReactJS, TailwindCSS, CSS3, Firebase", 
             "url": "https://mcgillscheduler.vercel.app/"
         },
         {
-            "cover": "/portfolio/Empor.png", 
-            "title": "Empor", 
-            "description": "NextJS, Prisma, Spring Boot", 
+            "cover": "../assets/BillieTalk.jpeg", 
+            "title": "Billie Talk", 
+            "description": "ReactJS, TailwindCSS, Firebase", 
             "url": "https://www.empor.ca"
         },
         {
-            "cover": "/portfolio/PLPredictor.png", 
-            "title": "PL Match Predictor", 
-            "description": "Python, Sci-kit Learn, Pandas", 
+            "cover": "../assets/meddical.jpeg", 
+            "title": "Meddical", 
+            "description": "ReactJS, TailwindCSS", 
             "url": "https://github.com/Erik-Cupsa/Soccer-Match-Predictor"
         },
         {
-            "cover": "/portfolio/FPL.png", 
-            "title": "PremierZone", 
-            "description": "ReactJS, PostgreSQL, Spring Boot", 
+            "cover": "../assets/quiznest.jpeg", 
+            "title": "quiznest", 
+            "description": "ReactJS, TailwindCSS, Firebase", 
             "url": "https://premierzone.vercel.app/"
         },
         {
-            "cover": "/portfolio/JwtImage.png", 
-            "title": "Spring Security Tutorial", 
+            "cover": "../assets/Nzwears.jpeg", 
+            "title": "NZ - Wears", 
             "description": "Spring Boot, JWT", 
             "url": "https://youtu.be/uZGuwX3St_c?si=jIITQc20dXuGoOAP"
-        },
-        {
-            "cover": "/portfolio/GymTech.png", 
-            "title": "GymTech", 
-            "description": "ReactJS, PostgreSQL, Spring Boot", 
-            "url": "https://github.com/Erik-Cupsa/GymTech"
-        },
-
-        {
-            "cover": "/portfolio/Chat.png", 
-            "title": "StudySmartBot", 
-            "description": "ReactJS, NodeJS, Web Sockets", 
-            "url": "https://github.com/Erik-Cupsa/StudySmartBot"
-        }, 
-        {
-            "cover": "/portfolio/Jetpack.png", 
-            "title": "Super GTA Adventure", 
-            "description": "HTML, CSS, JavaScript", 
-            "url": "https://super-gta-adventure.vercel.app/"
         }
     ]
 }

@@ -33,7 +33,7 @@ import { useState } from 'react';
                     <span className='mt-1 text-gray-300 font-mono'>About</span>
             </NavLink>
             <NavLink 
-            to={'/about'}
+            to={'/work'}
             onClick={() => setActiveLink('/work')}
             className="flex flex-col items-center justify-center mt-2">
                 <div className={`flex items-center justify-center h-12 w-12 rounded-full transition-all duration-300 ease-linear cursor-pointer ${activeLink === '/work' ? 'bg-blue-500' : 'bg-gray-800 hover:bg-blue-600'}`}>
@@ -43,7 +43,7 @@ import { useState } from 'react';
                     <span className='mt-1 text-gray-300 font-mono'>Work</span>
             </NavLink>
             <NavLink 
-            to={'/about'}
+            to={'/portfolio'}
             onClick={() => setActiveLink('/portfolio')}
             className="flex flex-col items-center justify-center mt-2">
                 <div className={`flex items-center justify-center h-12 w-12 rounded-full transition-all duration-300 ease-linear cursor-pointer ${activeLink === '/portfolio' ? 'bg-blue-500 ' : 'bg-gray-800 hover:bg-blue-600'}`}>
