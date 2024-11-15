@@ -4,31 +4,31 @@
             "cover": "/src/assets/nzdine.jpeg", 
             "title": "NZDine", 
             "description": "ReactJS, TailwindCSS, CSS3, Firebase", 
-            "url": "https://mcgillscheduler.vercel.app/"
+            "url": "https://nz-dine.vercel.app/"
         },
         {
             "cover": "/src/assets/BillieTalk.jpeg", 
             "title": "Billie Talk", 
             "description": "ReactJS, TailwindCSS, Firebase", 
-            "url": "https://www.empor.ca"
+            "url": "https://chat-app-mu-ebon.vercel.app/"
         },
         {
             "cover": "/src/assets/meddical.jpeg", 
             "title": "Meddical", 
             "description": "ReactJS, TailwindCSS", 
-            "url": "https://github.com/Erik-Cupsa/Soccer-Match-Predictor"
+            "url": "https://meddical-iota.vercel.app/"
         },
         {
             "cover": "/src/assets/quiznest.jpeg", 
             "title": "quiznest", 
             "description": "ReactJS, TailwindCSS, Firebase", 
-            "url": "https://premierzone.vercel.app/"
+            "url": "https://quiznest-pi.vercel.app/"
         },
         {
             "cover": "/src/assets/Nzwears.jpeg", 
             "title": "NZ - Wears", 
-            "description": "Spring Boot, JWT", 
-            "url": "https://youtu.be/uZGuwX3St_c?si=jIITQc20dXuGoOAP"
+            "description": "ReactJS, TailwindCSS", 
+            "url": "https://nz-wears.vercel.app/"
         }
     ]
 }
