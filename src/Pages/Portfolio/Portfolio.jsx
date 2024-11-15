@@ -2,14 +2,20 @@ import  { useEffect, useState } from "react";
 import Loader from "react-loaders";
 import "./Portfolio.scss";
 import AnimatedLetters from "../../components/AnimatedLetters";
-import portfolioData from "../../data/portfolio.json";
+// import portfolioData from "../../data/portfolio.json";
 
 const Portfolio = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
-    console.log("portfolio",portfolioData);
-    console.log("portfolio type",typeof portfolioData);
+    const [portfolioData, setPortfolioData] = useState([])
+    // console.log("portfolio",portfolioData.portfolio[0].cover);
+    
+    // console.log("portfolio type",typeof portfolioData.portfolio[0]);
 
     useEffect(() => {
+        fetch('/data/portfolio.json')
+        .then(response => response.json())
+        .then(data => setPortfolioData(data.portfolio))
+        .catch(error => console.error('Error', error))
         const timer = setTimeout(() => {
             setLetterClass("text-animate-hover");
         }, 3000); 
@@ -24,6 +30,8 @@ const Portfolio = () => {
             <div className = "images-container">
                 {
                     portfolio.map((port, idx) => {
+                      {/* const imagePath = require(`${port.cover}`) */}
+                      {/* console.log(`image source for ${port.title}:`, port.cover) */}
                         return (
                             <div key={idx} className="image-box">
                                 <img src={port.cover} alt="portfolio" className = "portfolio-image"/>
@@ -45,9 +53,9 @@ const Portfolio = () => {
                 <h1 className = "page-title">
                     <AnimatedLetters letterClass = {letterClass} strArray={"Portfolio".split("")} idx={15}/>
                 </h1>
-                <div>{renderPortfolio(portfolioData.portfolio)}</div>
+                <div className="scrollable-content">{portfolioData.length > 0 ? renderPortfolio(portfolioData) : <Loader type="pacman"/>}</div>
             </div>
-            <Loader type="pacman"/>
+            
         </>
     );
 }

@@ -1,9 +1,12 @@
 
-.page { 
-    width: 88%; 
-    height: 100%; 
-    position: absolute; 
-    background: linear-gradient(to bottom, #023e8a 20%, #00b4d8 80%);
+.page {
+  width: 88%;
+  height: 100vh; /* Ensures the page height fills the viewport */
+  position: relative;
+  background: linear-gradient(to bottom, #023e8a 20%, #00b4d8 80%);
+  overflow-y: auto; /* Enables scrolling within the .page */
+  padding: 20px; /* Adds spacing for content */
+  box-sizing: border-box;
 }
 
 .container { 
@@ -51,15 +54,9 @@
   max-height: fit-content;
   margin-bottom: 0;
   padding-bottom: 0;
-  &::-webkit-scrollbar {
-    background-color: linear-gradient(to bottom, #023e8a 20%, #00b4d8 80%);
-    width: 8px;
-  }
 
-  &::-webkit-scrollbar-thumb {
-    background-color: #fff;
-    border-radius: 10px;
-  }
+
+
   table {
     width: 1000px; 
   }
