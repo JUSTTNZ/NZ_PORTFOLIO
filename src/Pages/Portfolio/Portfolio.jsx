@@ -12,18 +12,24 @@ const Portfolio = () => {
     // console.log("portfolio type",typeof portfolioData.portfolio[0]);
 
     useEffect(() => {
-        fetch('../../../data/portfolio.json')
-        .then(response => response.json())
+        fetch('/data/portfolio.json') 
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
         .then(data => setPortfolioData(data.portfolio))
-        .catch(error => console.error('Error', error))
+        .catch(error => console.error('Error fetching JSON:', error));
         const timer = setTimeout(() => {
             setLetterClass("text-animate-hover");
         }, 3000); 
-
-        return () => { 
-            clearTimeout(timer);
-        }
-    });
+    return () => { 
+        clearTimeout(timer);
+    }
+    }, []);
+    
+   
 
     const renderPortfolio = (portfolio) => { 
         return (
