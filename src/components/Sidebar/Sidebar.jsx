@@ -71,9 +71,15 @@ const Sidebar = () => {
                     </NavLink>
                 </div>
                 <div className="flex justify-center mt-4">
+                <a href="http://https://www.linkedin.com/in/confidence-chukwudi-0236322a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer">
                     <SideBarLink icon={<AiFillLinkedin size={15}/>} />
+                </a>
+                <a href="https://github.com/JUSTTNZ" target="_blank" rel="noopener noreferrer">
                     <SideBarLink icon={<AiFillGithub size={15}/>} />
+                </a>
+                <a href="https://www.instagram.com/justt_nz/profilecard/" target="_blank" rel="noopener noreferrer">
                     <SideBarLink icon={<AiFillInstagram size={15}/>} />
+                </a>
                 </div>
             </div>
         </>
