@@ -12,7 +12,7 @@ const Portfolio = () => {
     // console.log("portfolio type",typeof portfolioData.portfolio[0]);
 
     useEffect(() => {
-        fetch('/data/portfolio.json')
+        fetch('../../../data/portfolio.json')
         .then(response => response.json())
         .then(data => setPortfolioData(data.portfolio))
         .catch(error => console.error('Error', error))
