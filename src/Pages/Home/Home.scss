@@ -5,7 +5,7 @@
         left: 2%; 
         top: 50%; 
         transform: translateY(-50%); 
-        width: 100%; 
+        width: 98%; 
         max-height: 90%; 
     }
     h1{
@@ -75,20 +75,13 @@
     }
 }
 
-@media screen and (max-width: 1200px){
-    .home-page{
-        .logo-container {
-            width: 400px;
-        }
-    }
-}
-
 @media screen and (max-width: 1000px){
     
     .home-page{
         h1{
             font-size: 40px; 
             justify-content: center;
+            padding-top: 7%;
         }
         .text-zone{
             position: initial;
@@ -100,30 +93,10 @@
             text-align: left;
         }
 
-        .logo-container {
-            position: relative; 
-            width: 250px;
-            height: auto; 
-            top: 50px; 
-            right: 0; 
-            box-sizing: border-box; 
-            margin: auto; 
-            left: 0; 
-
-            svg{
-                position: absolute; 
-                top: auto; 
-                right: auto; 
-                bottom: auto; 
-                left: 0;
-                margin: auto;
-            }
-        }
-
         .flat-button{
             float: none;
             display: block;
-            width: 125px;
+            width:fit-content;
         }
     }
 }

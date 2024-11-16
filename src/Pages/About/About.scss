@@ -3,11 +3,16 @@
   display: none !important; 
   overflow: hidden !important;
 }
+
+.container.about-page {
+  overflow-y: scroll;
+}
+
 .stage-cube-cont {
-    width: 50%;
+    width: 60%;
     height: 100%;
     top: 0;
-    padding-top: 18%;
+    padding-top: 10%;
     margin-left: 0;
     position: absolute;
     right: 0;
@@ -86,7 +91,7 @@
     font-weight: 800;
     letter-spacing: 4px;
     text-decoration: none;
-    padding: 10px 70px; 
+    padding: 10px 20px; 
     border: 2px solid #ffd700; 
     margin-top: 25px; 
     float: left; 
@@ -201,6 +206,7 @@ h1 {
 
 
 .container.about-page {
+    
     .images-container {
       .image-box {
         animation: slideInFromBottom 2s forwards;
