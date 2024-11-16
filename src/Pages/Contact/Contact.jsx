@@ -52,11 +52,11 @@ const Contact = () => {
                                 <h1>
                                     <AnimatedLetters letterClass={letterClass} strArray = {"Contact me".split("")} idx = {15} />
                                 </h1>
-                                <p>
+                                <p className="text-left">
                                     <br/>
                                     Thank you for your interest in getting in touch! 
                                     <br/>
-                                    <br/>I value open communication and welcome any inquiries, feedback, or collaboration opportunities. Please don't hesitate to get in touch with me by filling out the contact form.
+                                    <br/>I value open communication and welcome any inquiries, <br /> feedback, or collaboration opportunities. Please don't hesitate to get in touch with me by filling out the contact form.
                                     <br/>
                                     <br/>
                                     <div className="flex ">
