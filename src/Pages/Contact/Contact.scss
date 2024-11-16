@@ -121,3 +121,8 @@
 .contact-page{
     overflow: hidden !important;
 }
+@media (min-width: 1024px) {
+    .container {
+        max-width: 100% !important;
+    }
+}

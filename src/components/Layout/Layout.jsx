@@ -5,7 +5,7 @@ import Sidebar from "../Sidebar/Sidebar";
 export const Layout = () => {
   return (
     <div className='App'>
-      <div className="sidebar">
+      <div className="sideba">
         <Sidebar />
       </div>
       <div className='page w-full'>
