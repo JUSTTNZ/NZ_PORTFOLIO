@@ -28,7 +28,7 @@ const Sidebar = () => {
 
           
             <div className={`fixed top-0 left-0 h-full bg-gray-900 text-white shadow-lg transition-transform duration-500 ease-in-out ${isOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 md:relative md:w-auto`} 
-                 style={{ background: isOpen ? '#181818' : '', width: isOpen ? '100%' : 'auto', zIndex: isOpen ? 2 : 0 }}>
+                 style={{ background: isOpen ? '#181818' : '', width: isOpen ? '100%' : 'auto', zIndex: isOpen ? 2 : 0, overflowY: 'scroll'}}>
 
     <p className={`text-blue-400 text-2xl font-mono font-bold ${isOpen ? 'text-center p-4' : 'p-4'}`}>Confidence.</p>
  
