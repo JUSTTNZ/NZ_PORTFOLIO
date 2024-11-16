@@ -27,13 +27,13 @@ const Portfolio = () => {
 
     const renderPortfolio = (portfolio) => { 
         return (
-            <div className = "images-container">
+            <div className = "images-container grid grid-cols-1 lg:grid-cols-4 gap-4 lg:pl-[90px]">
                 {
                     portfolio.map((port, idx) => {
                       {/* const imagePath = require(`${port.cover}`) */}
                       {/* console.log(`image source for ${port.title}:`, port.cover) */}
                         return (
-                            <div key={idx} className="image-box w-full">
+                            <div key={idx} className="image-box w-full grid grid-cols-4 ">
                                 <img src={port.cover} alt="portfolio" className = "portfolio-image"/>
                                 <div className="content">
                                     <p className="title">{port.title}</p>

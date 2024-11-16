@@ -47,8 +47,8 @@ const Contact = () => {
             <div className = "container contact-page">
                 <div className = "text-zone">
                     <table>
-                        <tr>
-                            <td className="left-side">
+                        <tr className="grid grid-cols-1 lg:grid-cols-2">
+                            <td className="">
                                 <h1>
                                     <AnimatedLetters letterClass={letterClass} strArray = {"Contact me".split("")} idx = {15} />
                                 </h1>
@@ -70,7 +70,7 @@ const Contact = () => {
                                     
                                 </p>
                             </td>
-                            <td className="right-side">
+                            <td className="">
                                 <div className="contact-form" onSubmit={sendEmail}>
                                     <form ref={refForm}>
                                         <ul>
