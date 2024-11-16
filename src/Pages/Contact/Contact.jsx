@@ -44,11 +44,11 @@ const Contact = () => {
 
     return(
         <>
-            <div className = "container contact-page">
+            <div className = "container contact-page w-full">
                 <div className = "text-zone">
                     <table>
-                        <tr>
-                            <td className="left-side">
+                        <tr className="grid grid-cols-1 lg:grid-cols-2 w-full">
+                            <td className="w-full">
                                 <h1>
                                     <AnimatedLetters letterClass={letterClass} strArray = {"Contact me".split("")} idx = {15} />
                                 </h1>
@@ -70,7 +70,7 @@ const Contact = () => {
                                     
                                 </p>
                             </td>
-                            <td className="right-side">
+                            <td className="w-full">
                                 <div className="contact-form" onSubmit={sendEmail}>
                                     <form ref={refForm}>
                                         <ul>
