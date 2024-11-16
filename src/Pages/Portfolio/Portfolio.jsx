@@ -27,7 +27,7 @@ const Portfolio = () => {
 
     const renderPortfolio = (portfolio) => { 
         return (
-            <div className = "images-container grid grid-cols-1 lg:grid-cols-4 gap-4 lg:pl-[90px]">
+            <div className = "images-container grid grid-cols-1 lg:grid-cols-4 gap-4 ">
                 {
                     portfolio.map((port, idx) => {
                       {/* const imagePath = require(`${port.cover}`) */}
