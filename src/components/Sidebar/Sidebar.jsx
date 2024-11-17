@@ -28,7 +28,7 @@ const Sidebar = () => {
 
           
             <div className={`fixed top-0 left-0 h-full bg-gray-900 text-white shadow-lg transition-transform duration-500 ease-in-out ${isOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 md:relative md:w-auto`} 
-                 style={{ background: isOpen ? '#181818' : '', width: isOpen ? '100%' : 'auto', zIndex: isOpen ? 2 : 0 }}>
+                 style={{ background: isOpen ? '#181818' : '', width: isOpen ? '100%' : 'auto', zIndex: isOpen ? 2 : 0, overflowY: 'scroll'}}>
 
     <p className={`text-blue-400 text-2xl font-mono font-bold ${isOpen ? 'text-center p-4' : 'p-4'}`}>Confidence.</p>
  
@@ -71,13 +71,13 @@ const Sidebar = () => {
                     </NavLink>
                 </div>
                 <div className="flex justify-center mt-4">
-                <a href="http://https://www.linkedin.com/in/confidence-chukwudi-0236322a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer">
+                <a href="http://linkedin.com/in/confidence-chukwudi-0236322a5" target="_blank" rel="noopener noreferrer">
                     <SideBarLink icon={<AiFillLinkedin size={15}/>} />
                 </a>
                 <a href="https://github.com/JUSTTNZ" target="_blank" rel="noopener noreferrer">
                     <SideBarLink icon={<AiFillGithub size={15}/>} />
                 </a>
-                <a href="https://www.instagram.com/justt_nz/profilecard/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/justt_nz/" target="_blank" rel="noopener noreferrer">
                     <SideBarLink icon={<AiFillInstagram size={15}/>} />
                 </a>
                 </div>

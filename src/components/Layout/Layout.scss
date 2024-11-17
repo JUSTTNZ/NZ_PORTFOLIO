@@ -13,7 +13,7 @@
     min-height: 566px; 
     position: absolute; 
     opacity: 0; 
-    // top: 5%; 
+    top: 7%; 
     // margin: 0 auto; 
     z-index: 1; 
     transform-style: preserve-3d; 
@@ -92,10 +92,12 @@
         font-size: 18px;
         line-height: 18px;
         position: absolute;
+        top: 0;
         left: -30px;
         bottom: -20px;
         margin-left: 20px;
         opacity: 0.6;
+        z-index: 100
       }
     }
 
