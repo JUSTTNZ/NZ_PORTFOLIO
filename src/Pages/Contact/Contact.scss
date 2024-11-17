@@ -1,5 +1,6 @@
 .contact-form{
-    width: 100%; 
+    width: 500px; 
+    max-width: fit-content;
     margin-top: 40px;
 
     ul {
@@ -11,7 +12,7 @@
             margin: 0; 
             list-style: none; 
             margin-bottom: 10px;
-            overflow: hidden; 
+            // overflow: hidden; 
             display: block; 
             position: relative; 
             opacity: 1;
@@ -99,8 +100,23 @@
     .left-side{
         margin-top: -10px;
     }
+
+    .contact-form {
+        width: 300px;
+        padding: 0 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 @media screen and (max-width: 700px){
+    .contact-page {
+        padding-top: 24px;
+    }
+
+    .text-left {
+        flex-wrap: wrap;
+    }
     .map-wrap {
         float: none; 
         width: 100%; 
@@ -124,5 +140,14 @@
 @media (min-width: 1024px) {
     .container {
         max-width: 100% !important;
+    }
+
+    .contact-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        width: 300px;
+    padding-right: 25px;
     }
 }

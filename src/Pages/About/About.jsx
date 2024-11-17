@@ -40,22 +40,22 @@ const About = () => {
                 <div className="stage-cube-cont">
                     <div className="cubespinner"> 
                         <div className="face1">
-                            <SiTailwindcss size={100} color="#38B2AC"/> {/* Using FaAmazon from react-icons */}
+                            <SiTailwindcss className="text-3xl md:text-5xl lg:text-6xl" color="#38B2AC"/> {/* Using FaAmazon from react-icons */}
                         </div>
                         <div className="face2">
-                            <FaHtml5 size={100} color="#F06529"/> {/* Using FaHtml5 from react-icons */}
+                            <FaHtml5 className="text-3xl md:text-5xl lg:text-6xl" color="#F06529"/> {/* Using FaHtml5 from react-icons */}
                         </div>
                         <div className="face3">
-                            <FaCss3 size={100} color="#28A4D9"/> {/* Using FaCss3 from react-icons */}
+                            <FaCss3 className="text-3xl md:text-5xl lg:text-6xl" color="#28A4D9"/> {/* Using FaCss3 from react-icons */}
                         </div>
                         <div className="face4">
-                            <FaReact size={100} color="#5ED4F4"/> {/* Using FaReact from react-icons */}
+                            <FaReact className="text-3xl md:text-5xl lg:text-6xl" color="#5ED4F4"/> {/* Using FaReact from react-icons */}
                         </div>
                         <div className="face5">
-                            <SiJavascript size={100} color="#F7DF1E"/> {/* Using FaPython from react-icons */}
+                            <SiJavascript className="text-3xl md:text-5xl lg:text-6xl" color="#F7DF1E"/> {/* Using FaPython from react-icons */}
                         </div>
                         <div className="face6">
-                            <SiRedux size={100} color="#764abc"/> {/* Using FaJava from react-icons */}
+                            <SiRedux className="text-3xl md:text-5xl lg:text-6xl" color="#764abc"/> {/* Using FaJava from react-icons */}
                         </div>
                     </div>
                 </div>

@@ -170,6 +170,11 @@
 }
 /*phone*/
 @media (max-width: 768px) { 
+
+    .portfolio-page {
+        position: absolute;
+        top: 10%;
+    }
     .image-box {
         max-width: 100% !important; 
         width: 100% !important;

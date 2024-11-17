@@ -44,19 +44,19 @@ const Contact = () => {
 
     return(
         <>
-            <div className = "container contact-page w-full">
+            <div className = "container contact-page w-full ">
                 <div className = "text-zone">
                     <table>
-                        <tr className="grid grid-cols-1 lg:grid-cols-2 w-full">
-                            <td className="w-full">
+                        <tr className="grid grid-cols-1 lg:grid-cols-2 w-full lg:space-x-8 pr-12">
+                            <td className="w-full pr-4 md:pr-0 lg:pr-0">
                                 <h1>
                                     <AnimatedLetters letterClass={letterClass} strArray = {"Contact me".split("")} idx = {15} />
                                 </h1>
-                                <p className="text-left">
+                                <p className="text-left break-words whitespace-normal flex-wrap lg:flex-nowrap">
                                     <br/>
                                     Thank you for your interest in getting in touch! 
                                     <br/>
-                                    <br/>I value open communication and welcome any inquiries, <br /> feedback, or collaboration opportunities. Please don't hesitate to get in touch with me by filling out the contact form.
+                                    <br/>I value open communication and welcome any inquiries, <br /> feedback, or collaboration opportunities. Please don't <br />hesitate to get in touch with me by filling out the contact form.
                                     <br/>
                                     <br/>
                                     <div className="flex ">
@@ -71,7 +71,7 @@ const Contact = () => {
                                 </p>
                             </td>
                             <td className="w-full">
-                                <div className="contact-form" onSubmit={sendEmail}>
+                                <div className="contact-form  px-2 w-[50%]  md:w-full lg:px-0 lg:w-full" onSubmit={sendEmail}>
                                     <form ref={refForm}>
                                         <ul>
                                             <li className = "half">
