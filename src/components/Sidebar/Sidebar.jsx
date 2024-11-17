@@ -77,7 +77,7 @@ const Sidebar = () => {
                 <a href="https://github.com/JUSTTNZ" target="_blank" rel="noopener noreferrer">
                     <SideBarLink icon={<AiFillGithub size={15}/>} />
                 </a>
-                <a href="https://www.instagram.com/justt_nz/profilecard/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/justt_nz/" target="_blank" rel="noopener noreferrer">
                     <SideBarLink icon={<AiFillInstagram size={15}/>} />
                 </a>
                 </div>
