@@ -56,7 +56,7 @@ const Sidebar = () => {
                         <span className='mt-1 text-gray-300 font-mono'>Work</span>
                     </NavLink>
                     <NavLink to={'/portfolio'} onClick={() => { setActiveLink('/portfolio'); toggleSidebar(); }} className="flex flex-col items-center justify-center mt-2">
-                        <div className={`flex items-center justify-center h-12 w-12 rounded-full transition-all duration-300 ease-linear cursor-pointer ${activeLink === '/portfolio' ? 'bg-blue-500' : 'bg-gray-800 hover:bg -blue-600'}`}>
+                        <div className={`flex items-center justify-center h-12 w-12 rounded-full transition-all duration-300 ease-linear cursor-pointer ${activeLink === '/portfolio' ? 'bg-blue-500' : 'bg-gray-800 hover:bg-blue-600'}`}>
                             <AiOutlineFolderOpen size="30" className="text-white" />
                         </div>
                         {activeLink === '/portfolio' && <div className='indicator'></div>}
