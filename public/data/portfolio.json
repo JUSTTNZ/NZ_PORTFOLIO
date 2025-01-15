@@ -8,7 +8,7 @@
         },
         {
             "cover": "/assets/Nz chat app (3).JPG", 
-            "title": "Billie Talk", 
+            "title": "TEXT BILLIE", 
             "description": "ReactJS, TailwindCSS, Firebase", 
             "url": "https://chat-app-mu-ebon.vercel.app/"
         },
@@ -16,7 +16,7 @@
             "cover": "/assets/Nz bot.JPG", 
             "title": "NZ BOT", 
             "description": "ReactJS, TailwindCSS", 
-            "url": "https://meddical-iota.vercel.app/"
+            "url": "https://nami-bot-beta.vercel.app/"
         },
         {
             "cover": "/assets/Nz wears (1).JPG", 
@@ -26,9 +26,9 @@
         },
         {
             "cover": "/assets/Redefine gaming  (1).JPG", 
-            "title": "NZ Wears", 
+            "title": "REDEFINE GAMING", 
             "description": "ReactJS, TailwindCSS", 
-            "url": "https://nz-wears.vercel.app/"
+            "url": "https://gamify-gules.vercel.app/"
         },
         {
             "cover": "/assets/Quiz nest  (1).JPG", 
