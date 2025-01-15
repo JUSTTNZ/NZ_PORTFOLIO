@@ -4,9 +4,9 @@ import "./DevList.scss"
 
 const TechList = () => {
   const [devs] = useState([
-    { name: "Postman", progress: 60, className: "postman-progress", years: 3/4 },
-    { name: "Git", progress: 85, className: "github-progress", years: 1 },
-    { name: "Firebase", progress: 70, className: "firebase-progress", years: 1}
+    { name: "Postman", progress: 60, className: "postman-progress", years: 2 },
+    { name: "Git", progress: 85, className: "github-progress", years: 2 },
+    { name: "Firebase", progress: 70, className: "firebase-progress", years: 2}
   ]);
 
   return (

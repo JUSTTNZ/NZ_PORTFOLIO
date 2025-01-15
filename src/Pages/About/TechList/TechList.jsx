@@ -5,8 +5,9 @@ import "./TechList.scss"
 const TechList = () => {
   const [techs] = useState([
     { name: "ReactJS", progress: 100, className: "react-progress", years: 2 },
-    { name: "NodeJS", progress: 50, className: "node-progress", years: 1/2 },
-    { name: "TailwindCss", progress: 70, className: "TailwindCss", years: 1 },
+    { name: "NodeJS", progress: 70, className: "node-progress", years: 1 },
+    { name: "TailwindCss", progress: 90, className: "TailwindCss-progress", years: 2 },
+    { name: "ExpressJS", progress: 70, className: "express-progress", years: 1}
   ]);
 
   return (
