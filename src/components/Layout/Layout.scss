@@ -1,4 +1,3 @@
-
 .page { 
     width: auto; 
     height: 100%; 
@@ -10,7 +9,7 @@
 .container { 
     width: 98%; 
     will-change: contents; 
-    min-height: 566px; 
+    min-height: 100vh; 
     position: absolute; 
     opacity: 0; 
     // top: 7%; 
@@ -40,18 +39,26 @@
   
   @keyframes slideInFromBottom {
     from {
+      opacity: 0;
       transform: translateY(100%);
     }
     to {
-      transform: translateY(0);
       opacity: 1;
+      transform: translateY(0);
     }
   }
   
-  overflow: scroll;
-  max-height: fit-content;
-  margin-bottom: 0;
-  padding-bottom: 0;
+  .container.work-page {
+    .text-zone {
+      .timeline-container {
+        animation: slideInFromBottom 5s forwards;
+      }
+      overflow: scroll;
+      //max-height: fit-content;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+  }
   &::-webkit-scrollbar {
     background-color: linear-gradient(to bottom, #023e8a 20%, #00b4d8 80%);
     width: 8px;
@@ -176,8 +183,9 @@
 }
 
 .container.work-page {
-  .text-zone{
-    .timeline-container{
+  .text-zone {
+    padding-bottom: 0;
+    .timeline-container {
       animation: slideInFromBottom 5s forwards;
     }
   }
@@ -245,4 +253,3 @@
       width: calc(100% - 80px); // Adjust main content width accordingly
     }
   }
-
