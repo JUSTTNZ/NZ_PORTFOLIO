@@ -53,12 +53,14 @@
       .timeline-container {
         animation: slideInFromBottom 5s forwards;
       }
-      overflow: scroll;
-      //max-height: fit-content;
-      margin-bottom: 0;
-      padding-bottom: 0;
+      padding-bottom: 0; // Move this declaration above the nested rule
     }
   }
+  
+  // overflow: scroll;
+  max-height: 90vh;
+  // margin-top: 10vh;
+  
   &::-webkit-scrollbar {
     background-color: linear-gradient(to bottom, #023e8a 20%, #00b4d8 80%);
     width: 8px;
@@ -233,7 +235,7 @@
   }
   
   .page {
-    width: 88%;
+    width: 90%;
     position: relative;
     background: linear-gradient(to bottom, #023e8a 20%, #00b4d8 80%);
     overflow-y: auto;
@@ -245,7 +247,15 @@
       width: 80px; // Reduce sidebar width for smaller screens
       // display: none ;
 
-      
+    }
+
+    @media (max-width: 768px) {
+      .container.work-page,
+      .container.contact-page,
+      .container.about-page,
+      .container.portfolio-page {
+        overflow: scroll;
+      }
     }
     
     .page {
