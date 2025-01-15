@@ -1,34 +1,40 @@
 {
     "portfolio": [
         {
-            "cover": "/assets/nzdine.jpeg", 
-            "title": "NZDine", 
+            "cover": "/assets/Nz dine (2).JPG", 
+            "title": "NZ Dine", 
             "description": "ReactJS, TailwindCSS, CSS3, Firebase", 
             "url": "https://nz-dine.vercel.app/"
         },
         {
-            "cover": "/assets/BillieTalk.jpeg", 
+            "cover": "/assets/Nz chat app (3).JPG", 
             "title": "Billie Talk", 
             "description": "ReactJS, TailwindCSS, Firebase", 
             "url": "https://chat-app-mu-ebon.vercel.app/"
         },
         {
-            "cover": "/assets/meddical.jpeg", 
-            "title": "Meddical", 
+            "cover": "/assets/Nz bot.JPG", 
+            "title": "NZ BOT", 
             "description": "ReactJS, TailwindCSS", 
             "url": "https://meddical-iota.vercel.app/"
         },
         {
-            "cover": "/assets/quiznest.jpeg", 
-            "title": "quiznest", 
-            "description": "ReactJS, TailwindCSS, Firebase", 
-            "url": "https://quiznest-pi.vercel.app/"
-        },
-        {
-            "cover": "/assets/Nzwears.jpeg", 
-            "title": "NZ - Wears", 
+            "cover": "/assets/Nz wears (1).JPG", 
+            "title": "NZ Wears", 
             "description": "ReactJS, TailwindCSS", 
             "url": "https://nz-wears.vercel.app/"
+        },
+        {
+            "cover": "/assets/Redefine gaming  (1).JPG", 
+            "title": "NZ Wears", 
+            "description": "ReactJS, TailwindCSS", 
+            "url": "https://nz-wears.vercel.app/"
+        },
+        {
+            "cover": "/assets/Quiz nest  (1).JPG", 
+            "title": "Quiznest", 
+            "description": "ReactJS, TailwindCSS, Firebase", 
+            "url": "https://quiznest-pi.vercel.app/"
         }
     ]
 }
