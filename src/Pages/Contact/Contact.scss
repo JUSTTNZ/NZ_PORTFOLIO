@@ -75,9 +75,22 @@
     }
 }
 
-.icon{
+.iconl{
     width: 100px;
     height: 100px;
+    margin: 50px;
+    opacity: 0.8;
+    color: #ffd700; 
+
+
+    &:hover { 
+        opacity: 1;
+    }
+}
+
+.icong{
+    width: 110px;
+    height: 110px;
     margin: 50px;
     opacity: 0.8;
     color: #ffd700; 

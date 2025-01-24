@@ -56,42 +56,18 @@ const Contact = () => {
                                     <br/>
                                     Thank you for your interest in getting in touch! 
                                     <br/>
-                                    <br/>I value open communication and welcome any inquiries, <br /> feedback, or collaboration opportunities. Please don't <br />hesitate to get in touch with me by filling out the contact form.
+                                    <br/>I value open communication and welcome any  <br /> inquiries, feedback, or collaboration opportunities. <br /> Please don't hesitate to get in touch with me by <br /> filling out the contact form.
                                     <br/>
                                     <br/>
-                                    <div className="flex ">
+                                    <div className="flex md:ml-[-50px]">
                                     <a target = "_blank" rel = "noreferrer" href = "https://www.linkedin.com/in/confidence-chukwudi-0236322a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
-                                        <FontAwesomeIcon icon={faLinkedin}  class = "icon" color = "#4d4d4e" />
+                                        <FontAwesomeIcon icon={faLinkedin}  class = "iconl" color = "#4d4d4e" />
                                     </a>
-                                    <a target = "_blank" rel = "noreferrer" href = "chukwudiconfidenceosinachi@gmail.com">
-                                        <FontAwesomeIcon icon={faEnvelope} class = "icon" color = "#4d4d4e" />
+                                    <a target = "_blank" rel = "noreferrer" href = "https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqbQczPFzjhRTkttDXqmDdDgTdXbSqpvzbtHHKXpXknGVsbqmRcNcfRmKdsJVMbgdBmBJV">
+                                        <FontAwesomeIcon icon={faEnvelope} class = "icong" color = "#4d4d4e" />
                                     </a>
                                     </div>
-                                    
                                 </p>
-                            </td>
-                            <td className="w-full">
-                                <div className="contact-form  px-2 w-[50%]  md:w-full lg:px-0 lg:w-full" onSubmit={sendEmail}>
-                                    <form ref={refForm}>
-                                        <ul>
-                                            <li className = "half">
-                                                <input type="text" name="name" placeholder="Name" required />
-                                            </li>
-                                            <li className="half">
-                                                <input type="email" name="email" placeholder = "Email" required />
-                                            </li>
-                                            <li>
-                                                <input placeholder = "Subject" type="text" name="subject" required/>
-                                            </li>
-                                            <li>
-                                                <textarea placeholder="Message" name="message" required></textarea>
-                                            </li>
-                                            <li>
-                                                <input type="submit" className="flat-button" value="SEND" />
-                                            </li>
-                                        </ul>
-                                    </form>
-                                </div>
                             </td>
                         </tr>
                     </table>
