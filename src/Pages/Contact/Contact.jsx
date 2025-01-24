@@ -56,7 +56,7 @@ const Contact = () => {
                                     <br/>
                                     Thank you for your interest in getting in touch! 
                                     <br/>
-                                    <br/>I value open communication and welcome any  <br /> inquiries, feedback, or collaboration opportunities. <br /> Please don't hesitate to get in touch with me by <br /> filling out the contact form.
+                                    <br/>I value open communication and welcome any  <br /> inquiries, feedback, or collaboration opportunities. <br /> Please don't hesitate to get in touch with me by <br /> clicking any of the link below.
                                     <br/>
                                     <br/>
                                     <div className="flex md:ml-[-50px]">
